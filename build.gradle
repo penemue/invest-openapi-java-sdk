@@ -8,6 +8,8 @@ subprojects {
         mavenCentral()
     }
 
+    sourceCompatibility = 11
+
     compileJava {
         options.encoding = 'UTF-8'
     }
